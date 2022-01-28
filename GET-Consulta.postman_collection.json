@@ -1,0 +1,333 @@
+{
+	"info": {
+		"_postman_id": "85fb3a79-1328-4a4d-8a97-86c736356b0a",
+		"name": "GET/Consulta",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4000/consultanivelacademico",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultanivelacademico",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultanivelacademico"
+					]
+				},
+				"description": "Nivel Academico"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultausers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultausers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultausers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultausuarioroll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultausuarioroll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultausuarioroll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultarolls",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultarolls",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultarolls"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultaproyecto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultaproyecto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultaproyecto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultaoficio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultaoficio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultaoficio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultaevaluacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultaevaluacion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultaevaluacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultaperiodo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultaperiodo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultaperiodo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultadivision",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultadivision",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultadivision"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultacronograma",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultacronograma",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultacronograma"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultaareainvestigaciondelproyecto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultaareainvestigaciondelproyecto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultaareainvestigaciondelproyecto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultaactividadproyecto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultaactividadproyecto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultaactividadproyecto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultaevaluacionproyecto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultaevaluacionproyecto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultaevaluacionproyecto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultaproyrecursos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultaproyrecursos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultaproyrecursos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultaregistroavance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultaregistroavance",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultaregistroavance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultalineadeinvestigaacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultalineadeinvestigaacion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultalineadeinvestigaacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/consultarecursos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/consultarecursos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"consultarecursos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

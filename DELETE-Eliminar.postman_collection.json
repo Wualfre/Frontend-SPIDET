@@ -1,0 +1,349 @@
+{
+	"info": {
+		"_postman_id": "a322955c-37ab-4572-9945-4f81a1acbd43",
+		"name": "DELETE/Eliminar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4000/eliminarnivelacademico/61edf1cdf38e266d71e251ce",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarnivelacademico/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarnivelacademico",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminarusuario/61eb1feaff6697ac74f07479",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarusuario/61eb1feaff6697ac74f07479",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarusuario",
+						"61eb1feaff6697ac74f07479"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminarusuarioroll/61edff614dff648d11668fc9",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarusuarioroll/61ef4fc94579cc0123bee924",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarusuarioroll",
+						"61ef4fc94579cc0123bee924"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminarrolls/61ee12eccfa4d1515bd7531e",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarrolls/61ee12eccfa4d1515bd7531e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarrolls",
+						"61ee12eccfa4d1515bd7531e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminarproyecto/61f0c742f7b20f2bff85e9c9",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarproyecto/61f0c742f7b20f2bff85e9c9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarproyecto",
+						"61f0c742f7b20f2bff85e9c9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminaroficio/61f0ca20ecc7952a297c4867",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminaroficio/61f0ca20ecc7952a297c4867",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminaroficio",
+						"61f0ca20ecc7952a297c4867"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminarevaluacion/61f0cec29c0b8f7fcbf47f0c",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarevaluacion/61f0cec29c0b8f7fcbf47f0c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarevaluacion",
+						"61f0cec29c0b8f7fcbf47f0c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminarperiodo/61f0d20b1d89b1f923f0494f",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarperiodo/61f0d20b1d89b1f923f0494f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarperiodo",
+						"61f0d20b1d89b1f923f0494f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminardivisionid/61f0d553a82d6e190adc6852",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminardivisionid/61f0d553a82d6e190adc6852",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminardivisionid",
+						"61f0d553a82d6e190adc6852"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminarcronogramaid/61f0dd1f81db1ae600fe24aa",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarcronogramaid/61f0dd1f81db1ae600fe24aa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarcronogramaid",
+						"61f0dd1f81db1ae600fe24aa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminarareainvestigaciondelproyecto/61f0e23a10b7693f5761231a",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarareainvestigaciondelproyecto/61f0e23a10b7693f5761231a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarareainvestigaciondelproyecto",
+						"61f0e23a10b7693f5761231a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminaractividadproyecto/61f0ec3ae3827ddc644f9c08",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminaractividadproyecto/61f0ec3ae3827ddc644f9c08",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminaractividadproyecto",
+						"61f0ec3ae3827ddc644f9c08"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminarevaluacionproyecto/61f0f2f57de0a4c5b72aeac5",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarevaluacionproyecto/61f0f2f57de0a4c5b72aeac5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarevaluacionproyecto",
+						"61f0f2f57de0a4c5b72aeac5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminarIdproyectoRecursos/61f0f971b8a51781ecc2fd4f",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarIdproyectoRecursos/61f0f971b8a51781ecc2fd4f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarIdproyectoRecursos",
+						"61f0f971b8a51781ecc2fd4f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminarregistroavanceid/61f1018c76de69b2cca81c95",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarregistroavanceid/61f1018c76de69b2cca81c95",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarregistroavanceid",
+						"61f1018c76de69b2cca81c95"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminarlineadeinvestigacionid/61f10ab6711f501e6836410e",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarlineadeinvestigacionid/61f10ab6711f501e6836410e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarlineadeinvestigacionid",
+						"61f10ab6711f501e6836410e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/eliminarRecursosId/61f110db1e0f22c1d6d4d817",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/eliminarRecursosId/61f110db1e0f22c1d6d4d817",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"eliminarRecursosId",
+						"61f110db1e0f22c1d6d4d817"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

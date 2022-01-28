@@ -1,0 +1,503 @@
+{
+	"info": {
+		"_postman_id": "9df4d4d4-991c-477b-8567-b6782451bcba",
+		"name": "POST/Registro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4000/registronivelacademico",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdNAcademico\": \"IN005\",\r\n    \"NombreNivelAcademico\": \"Licenciatura\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registronivelacademico",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registronivelacademico"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/registrousers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Idusuario\": \"IU005\",\r\n    \"Nombre\": \"Edgar \",\r\n    \"Apaterno\": \"Rodríguez \",\r\n    \"Amaterno\": \"Avilés \",\r\n    \"Idivision\": \"IV005\",\r\n    \"usuario\": \"Adm005\",\r\n    \"Contraseña\":\"Adm005\",\r\n    \"IdNAcademico\":\"IN005\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registrousers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registrousers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/crearusuarioroll",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdUsarioRoll\": \"radmin1\",\r\n    \"IdUsuario\": \"mps001\",\r\n    \"Idroll\": \"admin001\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registrousuarioroll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registrousuarioroll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/registrorrolls",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Idroll\": \"IDPRUEBA1\",\r\n    \"Roll\": \"Profesor\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registrorrolls",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registrorrolls"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/registroproyecto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdProyecto\": \"IP005\",\r\n    \"NombreProyecto\": \"App Hibrida Para Odontologos\",\r\n    \"IdAreadeinvestigacion\": \"IA004\",\r\n    \"Descripciondelproyecto\": \"aplicación hibrida con almacenamiento en la nube que permita tener el control de los  historiales médicos  \",\r\n    \"JusttificacionDelProyecto\": \"odontologos\",\r\n    \"ResumenDelProyecto\": \"Resumen descrito en tesis\",\r\n    \"InformacionTecnicaDelProyecto\": \"sistemas de software\",\r\n    \"TelefonoCordinador\": \"55-55555555\",\r\n    \"IdUsuarioroll\": \"IUR005\",\r\n    \"IdLineadeinvestigacion\": \"IL005\",\r\n    \"IdPeriodo\": \"IE005\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registroproyecto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registroproyecto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/registrooficio",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdOficio\": \"IO005\",\r\n    \"NumOficio\": \"555\",\r\n    \"Fechaeleavoracion\": \"05/05/2021\",\r\n    \"FechaReunion\": \"05/05/2021\",\r\n    \"IdProyecto\": \"IP005\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registrooficio",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registrooficio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/registrarevaluacion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"IdEvaluacion\": \"eval002\",\r\n\"CalidaddePropuesta\": \"10\",\r\n\"FactibilidadyViabilidad\": \"10\",\r\n\"NombresyFirmasEvaluadore\": \"Martinez\",\r\n\"SubTotalEvaluacion\": \"20\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registrarevaluacion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registrarevaluacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/registroperiodo?Content-Type=application/json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Idperiodo\": \"IE005\",\r\n    \"periodo\": \"2018-A\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registroperiodo?Content-Type=application/json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registroperiodo"
+					],
+					"query": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/registrardivision",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdDivision\": \"IV005\",\r\n    \"NombreDivision\": \"Informatica\",\r\n    \"Lineadeinvestigacion\": \"base de datos\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registrardivision",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registrardivision"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/registrarcronograma",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"Idcronograma\": \"cron002\",\r\n\"Idproyecto\": \"20\",\r\n\"Nombreactividad\": \"40\",\r\n\"Unidad\": \"1\",\r\n\"Cantidad\": \"20\",\r\n\"Meses\":\"Septiembre\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registrarcronograma",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registrarcronograma"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/registroareainvestigaciondelproyecto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdAreadeinvestigacion\": \"IA005\",\r\n    \"AreaInvestigaciondelproyecto\": \"Sistemas\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registroareainvestigaciondelproyecto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registroareainvestigaciondelproyecto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/registraractividadproyecto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"Idactivproye\":\"IY005\",\r\n\"IdProyecto\":\"IP005\",\r\n\"Nombreactividad\":\"Desarrollo de app hibrida\",\r\n\"Unidad\":\"entregables\",\r\n\"cantidad\":\"5\",\r\n\"MesInicio\":\"Mayo\",\r\n\"MesFin\":\"Octubre\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registraractividadproyecto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registraractividadproyecto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/registroevaluacionproyecto?Content-Type=application/json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdEvaluacion\": \"IE0002\",\r\n    \"IdProyecto\": \"proyecto\",\r\n    \"IdUsuarioroll\": \"IU0002\",\r\n    \"TotalEvaluacion\": \"20\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registroevaluacionproyecto?Content-Type=application/json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registroevaluacionproyecto"
+					],
+					"query": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/creaproyrecursos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdproyectoRecursos\": \"IE0002\",\r\n    \"IdRecursos\": \"proyecto\",\r\n    \"IdProyecto\": \"IU0001\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/creaproyrecursos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"creaproyrecursos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/registraregistroavance?Content-Type=application/json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdRegistroAvance\" : \"0002\",\r\n    \"IdActividadProyecto\":\"jsdsa\",\r\n    \"Porcentaje\":\"10\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registraregistroavance?Content-Type=application/json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registraregistroavance"
+					],
+					"query": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/registrarlineadeinvestigacion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdLineadeinvestigacion\":\"IL005\",\r\n    \"NombreLineadeinvestigacion\":\"Desarrollo Dispositivos Moviles\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/registrarlineadeinvestigacion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"registrarlineadeinvestigacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/crearecursos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"IdRecusos\": \"Id25\", \r\n    \"HonariosPInterno\": \"HonInter1\", \r\n    \"HonariosPExterno\": \"HonExter1\", \r\n    \"Materiales\": \"Material1\", \r\n    \"Servicios\": \"Servicio1\", \r\n    \"BienesInmuebles\": \"Bien1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/crearecursos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"crearecursos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

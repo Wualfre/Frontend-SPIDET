@@ -1,0 +1,502 @@
+{
+	"info": {
+		"_postman_id": "b917f299-e4ee-4f48-a315-d525264553e9",
+		"name": "PUT/Editar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4000/editarregistroavance/61f1018c76de69b2cca81c95",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdRegistroAvance\" : \"00034\",\r\n    \"IdActividadProyecto\":\"jsdsa\",\r\n    \"Porcentaje\":\"10\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarregistroavance/61f1018c76de69b2cca81c95",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarregistroavance",
+						"61f1018c76de69b2cca81c95"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editarnivelacademico/",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdNAcademico\": \"IDPRUEBA1\",\r\n    \"NombreNivelAcademico\": \"POSGRADO-MAESTRIA\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarnivelacademico/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarnivelacademico",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editarusuario/",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Idusuario\": \"Id6\",\r\n    \"Nombre\": \"Juan\",\r\n    \"Apaterno\": \"Rosas\",\r\n    \"Amaterno\": \"Rojas\",\r\n    \"Idivision\": \"IDPRUEBA1\",\r\n    \"usuario\": \"Admin\",\r\n    \"Contraseña\":\"123\",\r\n    \"IdNAcademico\":\"id1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarusuario/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarusuario",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editarusuarioroll/",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdUsarioRoll\": \"IDPRUEBA1\",\r\n    \"IdUsuario\": \"idprueb1\",\r\n    \"Idroll\": \"Administradora\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarusuarioroll/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarusuarioroll",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editarrolls/",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdRoll\": \"IDPRUEBA1\",\r\n    \"Roll\": \"Profesor investigador\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarrolls/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarrolls",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editarproyecto/61f0c742f7b20f2bff85e9c9",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdProyecto\": \"1\",\r\n    \"NombreProyecto\": \"b\",\r\n    \"IdAreadeinvestigacion\": \"b\",\r\n    \"Descripciondelproyecto\": \"b\",\r\n    \"JusttificacionDelProyecto\": \"b\",\r\n    \"ResumenDelProyecto\": \"b\",\r\n    \"InformacionTecnicaDelProyecto\": \"b\",\r\n    \"TelefonoCordinador\": \"b\",\r\n    \"IdUsuarioroll\": \"b\",\r\n    \"IdPeriodo\": \"b\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarproyecto/61f0c742f7b20f2bff85e9c9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarproyecto",
+						"61f0c742f7b20f2bff85e9c9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editaroficio/61f0ca20ecc7952a297c4867",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdOficio\": \"of002020\",\r\n    \"NumOficio\": \"123456789\",\r\n    \"Fechaeleavoracion\": \"01/01/2022\",\r\n    \"FechaReunion\": \"01/01/2022\",\r\n    \"IdProyecto\": \"PR00001\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editaroficio/61f0ca20ecc7952a297c4867",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editaroficio",
+						"61f0ca20ecc7952a297c4867"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editarevaluacion/61f0cec29c0b8f7fcbf47f0c",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"IdEvaluacion\": \"eval002\",\r\n\"CalidaddePropuesta\": \"30\",\r\n\"FactibilidadyViabilidad\": \"10\",\r\n\"NombresyFirmasEvaluadore\": \"Martinez\",\r\n\"SubTotalEvaluacion\": \"50\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarevaluacion/61f0cec29c0b8f7fcbf47f0c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarevaluacion",
+						"61f0cec29c0b8f7fcbf47f0c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editarperiodo/61f0d20b1d89b1f923f0494f",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Idperiodo\": \"PE000014\",\r\n    \"periodo\": \"2021-A\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarperiodo/61f0d20b1d89b1f923f0494f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarperiodo",
+						"61f0d20b1d89b1f923f0494f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editardivision/61f0d5e9a82d6e190adc685d",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdDivision\": \"D00030\",\r\n    \"NombreDivision\": \"ingenieria en sistemas computacionales\",\r\n    \"Lineadeinvestigacion\": \"Mineria de Datos\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editardivision/61f0d5e9a82d6e190adc685d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editardivision",
+						"61f0d5e9a82d6e190adc685d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editarcronograma/61f0dd1f81db1ae600fe24aa",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"Idcronograma\": \"cron003\",\r\n\"Idproyecto\": \"20\",\r\n\"Nombreactividad\": \"40\",\r\n\"Unidad\": \"1\",\r\n\"Cantidad\": \"20\",\r\n\"Meses\":\"Septiembre\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarcronograma/61f0dd1f81db1ae600fe24aa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarcronograma",
+						"61f0dd1f81db1ae600fe24aa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editarareainvestigaciondelproyecto/61f0e23a10b7693f5761231a",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdAreadeinvestigacion\": \"AI0002\",\r\n    \"AreaInvestigaciondelproyecto\": \"Mineria\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarareainvestigaciondelproyecto/61f0e23a10b7693f5761231a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarareainvestigaciondelproyecto",
+						"61f0e23a10b7693f5761231a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editaractividadproyecto/61f0ec3ae3827ddc644f9c08",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"Idactivproye\":\"0056\",\r\n\"IdProyecto\":\"7363\",\r\n\"Nombreactividad\":\"Informe11111\",\r\n\"Unidad\":\"1\",\r\n\"cantidad\":\"20\",\r\n\"MesInicio\":\"Enero\",\r\n\"MesFin\":\"Junio\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editaractividadproyecto/61f0ec3ae3827ddc644f9c08",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editaractividadproyecto",
+						"61f0ec3ae3827ddc644f9c08"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editarevaluacionproyecto/61f0f2f57de0a4c5b72aeac5",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdEvaluacion\": \"IE0050\",\r\n    \"IdProyecto\": \"proyectos\",\r\n    \"IdUsuarioroll\": \"IU0002\",\r\n    \"TotalEvaluacion\": \"30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarevaluacionproyecto/61f0f2f57de0a4c5b72aeac5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarevaluacionproyecto",
+						"61f0f2f57de0a4c5b72aeac5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editarproyrecursos/61f0f971b8a51781ecc2fd4f",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdproyectoRecursos\": \"IE00500\",\r\n    \"IdRecursos\": \"proyecto\",\r\n    \"IdProyecto\": \"IU0001\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarproyrecursos/61f0f971b8a51781ecc2fd4f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarproyrecursos",
+						"61f0f971b8a51781ecc2fd4f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editarlineadeinvestigacion/61f10aac711f501e6836410b",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdLineadeinvestigacion\":\"0001\",\r\n    \"NombreLineadeinvestigacion\":\"mineria de datos\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarlineadeinvestigacion/61f10aac711f501e6836410b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarlineadeinvestigacion",
+						"61f10aac711f501e6836410b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/editarrecursos/61f112b85b3f1997ef9e0f52",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"IdRecusos\": \"Id1009\", \r\n    \"HonariosPInterno\": \"HonInter1\", \r\n    \"HonariosPExterno\": \"HonExter1\", \r\n    \"Materiales\": \"Material1\", \r\n    \"Servicios\": \"Servicio1\", \r\n    \"BienesInmuebles\": \"Bien1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/editarrecursos/61f112b85b3f1997ef9e0f52",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"editarrecursos",
+						"61f112b85b3f1997ef9e0f52"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
